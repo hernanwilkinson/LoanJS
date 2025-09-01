@@ -24,5 +24,5 @@ describe('Loan', () => {
     it('Cannot make a loan with cero interest rate', () => {
         expect(()=>Loan.of(1.0,1, 0)).toThrow("Interest rate must be strictly positive");
     });
-
+ 
 });
