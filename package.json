@@ -1,0 +1,23 @@
+{
+  "name": "Patrones-II-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "babel index.ts -d dist",
+    "start": "babel-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.24.7",
+    "@types/jest": "^27.5.0",
+    "jest": "^28.0.1"
+  }
+}
